@@ -15,29 +15,25 @@ function getall() {
       postArr.forEach((post) => {
         console.log(post);
         postPackage += `
-        <div class="container d-flex ">
-        <div class="post-container">
         <div class="row" id="post-holder">
-          <div class="">
-            <div class="card border-1 mx-3 my-2">
-              <div class="card-body">    
-                    
-                <h6 id="post-title">${post.title}</h6>
-                <p class="post-body text-break">
-                  ${post.body}
-                </p>
-                <div class="navigate d-flex justify-content-around">                
-                    <button type="button" class="text-danger border-0 bg-light" onclick="deletePost(${post.id})">
-                    <i class="fa fa-trash"></i>
-                    </button>                
-                    <button type="button" class="border-0 bg-light text-primary text-capitalize" onclick="updatePost(${post.id})">edit</button>              
-                    <button type="button" class="text-success border-0 bg-light" onclick="openPage(${post.id})">view</button>                
-                </div>
+        <div class="">
+          <div class="card border-1 mx-3 my-2">
+            <div class="card-body">    
+                  
+              <h6 id="post-title">${post.title}</h6>
+              <p class="post-body text-break">
+                ${post.body}
+              </p>
+              <div class="navigate d-flex justify-content-around">                
+                  <button type="button" class="text-danger border-0 bg-light" onclick="deletePost(${post.id})">
+                  <i class="fa fa-trash"></i>
+                  </button>                
+                  <button type="button" class="border-0 bg-light text-primary text-capitalize" onclick="updatePost(${post.id})">edit</button>              
+                  <button type="button" class="text-success border-0 bg-light" onclick="openPage(${post.id})">view</button>                
               </div>
             </div>
           </div>
         </div>
-      </div>  
       </div>`;
       });
       postPage.innerHTML = postPackage;
@@ -70,7 +66,6 @@ function createPost(e) {
       postArr.forEach((post) => {
         console.log(post);
         postPackage += ` 
-        
         <div class="row" id="post-holder">
           <div class="">
             <div class="card border-1 mx-3 my-2">
@@ -153,8 +148,6 @@ function deletePost(id) {
       postArr.forEach((post) => {
         console.log(post);
         postPackage += `
-        <div class="container d-flex ">
-        <div class="post-container">
         <div class="row" id="post-holder">
           <div class="">
             <div class="card border-1 mx-3 my-2">
@@ -168,15 +161,13 @@ function deletePost(id) {
                     <button type="button" class="text-danger border-0 bg-light" onclick="deletePost(${post.id})">
                     <i class="fa fa-trash"></i>
                     </button>                
-                    <button type="button" class="border-0 bg-light text-primary " onclick="updatePost(${post.id})">edit</button>              
+                    <button type="button" class="border-0 bg-light text-primary text-capitalize" onclick="updatePost(${post.id})">edit</button>              
                     <button type="button" class="text-success border-0 bg-light" onclick="openPage(${post.id})">view</button>                
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>  
-      </div>`;
+        </div>`;
       });
       postPage.innerHTML = postPackage;
     });
