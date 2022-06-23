@@ -25,6 +25,12 @@ body {
     display: flex;
     height: 50px;
   }
+  .news_container {
+    display: none;
+  }
+  .address_container {
+    display: none;
+  }
   .info_detail {
     display: none;
   }
@@ -42,6 +48,13 @@ body {
   .info_section {
     display: flex;
     height: 50px;
+    background-color: rgb(14, 204, 238);
+  }
+  .news_container {
+    display: none;
+  }
+  .address_container {
+    display: none;
   }
   .info_detail {
     display: none;
@@ -51,8 +64,5 @@ body {
   }
   .courses {
     display: none;
-  }
-  .small-device {
-    display: unset;
   }
 }
