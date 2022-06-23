@@ -17,11 +17,15 @@ body {
   display: none;
 }
 
-@media (min-width: 469px) and (max-width: 992px) {
+@media (min-width: 469px) and (max-width: 1024px) {
   header {
     display: none;
   }
   .info_section {
+    display: flex;
+    height: 50px;
+  }
+  .info_detail {
     display: none;
   }
   .title-page {
@@ -43,8 +47,5 @@ body {
   }
   .courses {
     display: none;
-  }
-  .small-device {
-    display: unset;
   }
 }
