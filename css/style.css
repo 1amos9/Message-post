@@ -40,6 +40,10 @@ body {
     display: none;
   }
   .info_section {
+    display: flex;
+    height: 50px;
+  }
+  .info_detail {
     display: none;
   }
   .title-page {
@@ -47,5 +51,8 @@ body {
   }
   .courses {
     display: none;
+  }
+  .small-device {
+    display: unset;
   }
 }
