@@ -1,0 +1,40 @@
+body {
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#post-form {
+  width: 50%;
+  height: 75%;
+}
+
+.navbar-menu {
+  margin-left: 50rem;
+}
+@media (min-width: 469px) and (max-width: 992px) {
+  header {
+    display: none;
+  }
+  .info_section {
+    display: none;
+  }
+  .title-page {
+    display: none;
+  }
+}
+@media (min-width: 209px) and (max-width: 468px) {
+  header {
+    display: none;
+  }
+  .info_section {
+    display: none;
+  }
+  .title-page {
+    display: none;
+  }
+  .courses {
+    display: none;
+  }
+}
