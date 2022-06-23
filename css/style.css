@@ -13,6 +13,10 @@ body {
 .navbar-menu {
   margin-left: 50rem;
 }
+.small-device {
+  display: none;
+}
+
 @media (min-width: 469px) and (max-width: 992px) {
   header {
     display: none;
@@ -22,6 +26,9 @@ body {
   }
   .title-page {
     display: none;
+  }
+  .small-device {
+    display: unset;
   }
 }
 @media (min-width: 209px) and (max-width: 468px) {
@@ -36,5 +43,8 @@ body {
   }
   .courses {
     display: none;
+  }
+  .small-device {
+    display: unset;
   }
 }
