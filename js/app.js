@@ -17,8 +17,8 @@ function getall() {
         postPackage += `
         <div class="row" id="post-holder">
         <div class="">
-          <div class="card border-1 mx-3 my-2">
-            <div class="card-body">    
+          <div class="card border-1 mx-3 mt-5">
+            <div class="card-body pt-5">    
                   
               <h6 id="post-title">${post.title}</h6>
               <p class="post-body text-break">
@@ -68,8 +68,8 @@ function createPost(e) {
         postPackage += ` 
         <div class="row" id="post-holder">
           <div class="">
-            <div class="card border-1 mx-3 my-2">
-              <div class="card-body">    
+            <div class="card border-1 mx-3 mt-5">
+              <div class="card-body pt-5">    
                     
                 <h6 id="post-title">${post.title}</h6>
                 <p class="post-body text-break">

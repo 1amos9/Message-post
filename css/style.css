@@ -51,29 +51,36 @@ body {
   .card {
     margin: 0;
     width: 90vw;
+    margin-top: 370rem;
   }
   .form-body {
     background-color: #000;
+    position: relative;
   }
   .form-body h1,
   h5 {
     display: none;
   }
   .form-body .input-group {
-    height: 30px;
+    height: 20px;
   }
+
   .form-body textarea {
-    height: 90px;
+    height: 60px;
     margin-bottom: 0;
+    width: 335px;
   }
   .form-body button {
-    margin-top: 0px;
+    right: 1px;
+    position: absolute;
+    top: 30px;
+    font-size: 10px;
   }
   #post-form {
     right: 10px;
     width: 100%;
-    height: 30%;
-    top: 240px;
+    height: 10%;
+    top: 55px;
   }
 }
 @media screen and (min-width: 360px) and (max-width: 375px) {
@@ -110,29 +117,35 @@ body {
   .card {
     margin: 0;
     width: 90vw;
+    margin-top: 370rem;
   }
   .form-body {
     background-color: rgb(2, 6, 59);
+    position: relative;
   }
   .form-body h1,
   h5 {
     display: none;
   }
   .form-body .input-group {
-    height: 30px;
+    height: 20px;
   }
   .form-body textarea {
-    height: 90px;
+    height: 60px;
     margin-bottom: 0;
+    width: 305px;
   }
   .form-body button {
-    margin-top: 0px;
+    right: 1px;
+    position: absolute;
+    top: 30px;
+    font-size: 10px;
   }
   #post-form {
     right: 10px;
     width: 100%;
-    height: 30%;
-    top: 240px;
+    height: 10%;
+    top: 55px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
