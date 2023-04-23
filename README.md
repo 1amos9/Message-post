@@ -1,2 +1,2 @@
-# -kodecamp_task8
-that what i can according to my health situation please try to understand me
+# Posting Using Api
+This sample of how you can create a simple post using Javascript
